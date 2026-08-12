@@ -1,0 +1,572 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Fiodar Kazhamiaka</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;900&display=swap" rel="stylesheet">
+
+        <!-- Stylesheets -->
+        <link href="css/clear.css" rel="stylesheet" />
+        <link href="css/onePage.css" rel="stylesheet" />
+        <link href="css/navigation.css" rel="stylesheet" />
+    </head>
+    <body style="text-align: center; margin-top: 40px;">
+        <!-- Header Section -->
+        <div class="hero">
+            <img class="profile" src="imgs/fiodar2_lowres.jpg" width="200">
+            <div class="content">
+                <div class="name">Fiodar<br/>Kazhamiaka</div>
+                <div class="info">Postdoc, Computer Science, Stanford</div>
+                <div class="info">&lt;my first name&gt;@stanford.edu</div>
+                <div class="info">Gates Building 422</div>
+                <div class="links">
+                    <a href="https://scholar.google.com/citations?hl=en&user=iCk1rjMAAAAJ">
+                        <div class="link">
+                            <img src="imgs/google-scholar.svg" width="20" />
+                            Google Scholar
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/fiodar-kazhamiaka">
+                        <div class="link">
+                            <img src="imgs/linkedin.svg" width="20" />
+                            LinkedIn
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <br />
+
+        <div class="navigation">
+            <a href="#latestNews"><div class="item">Latest News</div></a>
+            <a href="#research"><div class="item">Projects</div></a>
+            <a href="#publications"><div class="item">Papers</div></a>
+        </div>
+        <br />
+        <!-- About Me Section -->
+        <div class="aboutMe section" id="aboutMe">
+            <div class="content">
+                I work at the <a href="http://futuredata.stanford.edu">Future Data Systems</a> lab at Stanford as a postdoc, advised by <a href="https://cs.stanford.edu/people/matei/">Matei Zaharia</a> and <a href="http://www.bailis.org">Peter Bailis</a>. 
+                My research interests are in Systems for Sustainability, Data Science, and AI. My current research spans a range of topics: scalable and efficient systems for machine learning, query systems for data collected by autonomous vehicles, and PV+battery system design and control.
+                I'm also a co-host of the weekly <a href="https://mlsys.stanford.edu">Stanford MLSys Seminar</a> series; catch us <a href="https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ">live</a> Thursdays at 1:30 pm Pacific!
+                <br />
+                
+                <br />
+                I completed my PhD in Computer Science at the University of Waterloo under the guidance of <a href="https://svr-sk818-web.cl.cam.ac.uk/keshav/wiki/index.php">Srinivasan Keshav</a> and <a href="https://uwaterloo.ca/scholar/cath">Catherine Rosenberg</a> at the <a href="https://iss4e.ca/papers/">ISS4E</a> lab. I modelled and optimized energy storage systems, with a focus on renewable energy sources and behind-the-meter applications. Results include new algorithms for operating and sizing PV+storage systems, a framework for solar farm operators to allocate budget between PV panels and batteries to maximize revenue, and tractable models for Lithium-ion batteries for optimization and <a href="https://www.mathworks.com/matlabcentral/fileexchange/63078-lithium-ion-pi-model">simulation</a>. My work was recognized through the <a href="https://cs.uwaterloo.ca/news/mike-schaekermann-hong-zhou-fiodar-kazhamiaka-win-cheriton-distinguished-dissertation-awards">2020 SCS Cheriton Dissertation award</a> and featured on <a href="https://technews.acm.org/archives.cfm?fo=2019-12-dec/dec-06-2019.html">ACM TechNews</a>.
+                <br />
+                <br />
+                I'm keen on interdisciplinary work, and have had the pleasure of working with academics from power systems, economics, optimization, and electrochemistry disciplines.
+                In my free time, I train and compete internationally as a member of Canada's national beach volleyball team.
+            </div>
+        </div>
+
+        <br />
+
+       <!-- Latest News -->
+        <div class="latestNews section" id="latestNews">
+            <div class="title">Latest News</div>
+
+            <div class="content">
+                <div class="news">
+                    <div class="date">Aug 10</div>
+                    <div class="blurb">Career move: joining the newly formed <a href="https://www.microsoft.com/en-us/research/group/azure-systems-research/"> Azure Systems Research Group</a> in September 2023!</div>
+                </div>
+                <div class="news">
+                    <div class="date">July 1</div>
+                    <div class="blurb">Milestone! 9000 subscribers to the <a href="https://www.youtube.com/channel/UCzz6ructab1U44QPI3HpZEQ">Stanford MLSys Seminars YouTube channel</a></div>
+                </div>
+                <div class="news">
+                    <div class="date">Dec 10</div>
+                    <div class="blurb">Our paper on scaling query serving systems was accepted to NSDI '22! Congratulations Peter!</div>
+                </div>
+                <div class="news">
+                    <div class="date">Aug 25</div>
+                    <div class="blurb">Our work on solving large resource allocation problems was accepted to SOSP '21! <a href="pubs/scalable_allocations-8.pdf">[link]</a></div>
+                </div>
+                <div class="news">
+                    <div class="date">Aug 12</div>
+                    <div class="blurb">The Stanford MLSys seminars are now in conjunction with a credited seminar course (CS 528). </div>
+                </div>
+                 <div class="news">
+                    <div class="date">May 3</div>
+                    <div class="blurb">My PhD thesis has been selected for the <a href="https://cs.uwaterloo.ca/news/mike-schaekermann-hong-zhou-fiodar-kazhamiaka-win-cheriton-distinguished-dissertation-awards">2020 UWaterloo SCS Cheriton Dissertation award!</a></div>
+                </div>
+
+                <div class="news">
+                        <div class="date">April 20</div>
+                        <div class="blurb">Our work on sizing multi-roof PV+storage systems was accepted to ACM eEnergy '21! <a href="pubs/Sizing_multiple_roofs-7.pdf">[latest draft]</a></div>
+                </div>
+                <div class="news">
+                    <div class="date">April 1</div>
+                    <div class="blurb">Check out our <a href="https://arxiv.org/abs/2104.00282">preprint</a> of an algorithm for solving hyper-scale resource allocation problems in seconds!</div>
+                </div>
+                <!--<div class="news">
+                    <div class="date">Dec 14</div>
+                    <div class="blurb">Our <a href="pubs/avquery-cidr21.pdf">position paper</a> on a new class of data management systems for autonomous vehicle data will be presented at CIDR '21!</div>
+                </div>-->
+                
+
+                <!-- Template
+                
+                    <div class="news">
+                        <div class="date">ADD DATE HERE</div>
+                        <div class="blurb">ADD CONTENT FOR NEWS HERE</div>
+                    </div>
+
+                -->
+            </div>
+        </div>
+
+        <br />
+
+        <!-- Research Section -->
+        <div class="section research" id="research">
+            <div class="title">
+                Recent Projects
+            </div>
+            <div class="items">
+
+                <br>
+                    <div class="item">
+                        <img src="imgs/tradeoff_space.png" width="350px" />
+                        <div class="name">Resource Allocation in Computer Systems</div>
+                        <div class="description">
+                            Many problems in computer systems can be formulated as optimization problems, from job scheduling in clusters, to traffic engineering in wide area networks, to load balancing in distributed databases. Computing exact soluions to these problems is canonically considered to be intractable for large systems (eg. datacenters), so it's common to deploy fast but non-optimal heuristics. In our recent work on POP (Partitioned Optimization Problems), we show how near-optimal resource allocations can be computed several orders of magnitude faster than the exact solution. This work motivates the use of opimization in real systems. For more, check out our <a href="pubs/scalable_allocations-8.pdf">paper at SOSP 2021</a>, as well as our <a href="https://arxiv.org/abs/2104.00282">pre-print</a> featuring a similar algorithm for resource allocation problems.
+                        </div>
+                    </div>
+                <br>
+                <div class="item">
+                    <img src="imgs/lyft_s27.png" width="350px" />
+                    <div class="name">Autonomous Vehicle Query Systems</div>
+                    <div class="description">
+                        Modern vehicles with various levels of autonomy (AV) are equipped with high-resolution sensors and processors that measure the state of the world as they drive through it. This data can answer fine-grained queries on the state of the physical world. How many people are in line at my favourite coffee shop? How many cyclists have crossed a specific intersection this year? Where is the nearest open parking spot?
+                        To be realized, AV query systems must address challenges around data volume, bias, and privacy. This is an ongoing project; for more, check out our <a href="pubs/avquery-cidr21.pdf">position paper at CIDR 2021</a>.
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="imgs/gavel.png" width="350px" />
+                    <div class="name">Heterogeneity-Aware Cluster Scheduling</div>
+                    <div class="description">
+                        The end of Moore's Law has brought about an era of specialized accelerators, such as GPUs, TPUs, FPGAs, and other accelerators.
+                        How do we extend common notions of fairness and throughput in job scheduling policies to a compute cluster with heterogeneous hardware?
+                        <br>
+                        We approach this question with Gavel, a scheduler for DNN training jobs that systematically generalizes a wide range of existing scheduling policies, such a max-min fairness, finish-time fairness, and minimum makespan. Gavel expresses these policies as convex mathematical optimization problems, and extends them to consider the setting with heterogeneous hardware. With Gavel, we can sustain higher job load, and improve end objectives such as makespan and job completion time by over 40% compared to heterogeneity-agnostic policies. For more details, check out our <a href="https://www.usenix.org/conference/osdi20/presentation/narayanan-deepak">paper at OSDI 2020</a>.
+                    </div>
+                </div>
+                <br>
+                <div class="item">
+                    <img src="imgs/researchBatteryPVSizing.jpg" width="350px" />
+                    <div class="name">Future-Proof Solar PV and Storage Sizing</div>
+                    <div class="description">
+                        Suppose you want to purchase a system with solar panels and battery to power your home. How many panels do you buy? How big of a battery do you need? These questions are coupled, and depend on how often you're willing to go without power. Maybe you have some data to help understand what kind of system would have worked for you in the past, but what can this reliably tell you about the future?
+                        <br>
+                        To address this problem, we use of a recent advancement in empirical multi-variate probability concentration bounds to compute a robust least-cost system size for a given load target.
+                        This work was presented at ACM eEnergy 2018, and was voted as runner-up for the best paper (audience choice).
+                        <br>
+                        A refined version of our method was published in a journal in 2019. <a href="pubs/robust-sizing-journal.pdf">[link]</a>
+                        <br>
+                        We recently extended this work to cover muti-roof settings! Find it at eEnergy 2021 <a href="pubs/Sizing_multiple_roofs-7.pdf">[link]</a></div>
+                    </div>
+                </div>
+
+                <!-- Template
+                    <br>
+                    <div class="item">
+                        <img src="ADD LOCAL IMAGE URL" width="UPDATE SIZE OF IMAGE" />
+                        <div class="name">ADD NAME OF RESEARCH</div>
+                        <div class="description">
+                            ADD DESCRIPTION OF RESEARCH
+                        </div>
+                    </div>
+                
+                -->
+            </div>
+        </div>
+
+        <br />
+
+        <!-- Publications Section -->
+        <div class="publications section" id="publications">
+            <div class="title">Papers</div>
+
+            <div class="content">
+                <!--<div class="date">2021</div> -->
+
+                <div class="grid">
+
+                    <div class="publication">
+                        <a href="pubs/Beobench.pdf">
+                            <div class="name">Beobench: a Toolkit for Unified Access to Building Simulations for RL</div>
+                            <div class="authors">Arduin Findeis, Fiodar Kazhamiaka, Scott Jeen, Srinivasan Keshav</div>
+                            <div class="venue">ACM eEnergy 2022</div>
+                            <div class="abstract">
+                                Reinforcement learning (RL) is often considered a promising approach for controlling complex building operations. In this context, RL algorithms are typically evaluated using a testing framework that simulates building operations. To make general claims and avoid overfitting, an RL method should be evaluated on a large and diverse set of buildings. Unfortunately, due to the complexity of creating building simulations, none of the existing frameworks provide more than a handful of simulated buildings. Moreover, each framework has its own particularities, which makes it difficult to evaluate the same algorithm on multiple frameworks. To address this, we present Beobench: a Python toolkit that provides unified access to building simulations from multiple frameworks using a container-based approach. We demonstrate the power of our approach with an example showing how Beobench can launch RL experiments in any supported framework with a single command.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Hide Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/PriceDiscoveryMethod.pdf">
+                            <div class="name">Allocation of Fungible Resourcews via a Fast, Scalable Price Discovery Method</div>
+                            <div class="authors">Akshay Agrawal, Stephen Boyd, Deepak Narayanan, Fiodar Kazhamiaka, Matei Zaharia</div>
+                            <div class="venue">Mathematical Programming Computation</div>
+                            <div class="abstract">
+                                We consider the problem of assigning or allocating resources to a set of jobs. We consider the case when the resources are fungible, that is, the job can be done with any mix of the resources, but with different efficiencies. In our formulation we maximize a total utility subject to a given limit on the resource usage, which is a convex optimization problem and so is tractable. In this paper we develop a custom, parallelizable algorithm for solving the resource allocation problem that scales to large problems, with millions of jobs. Our algorithm is based on the dual problem, in which the dual variables associated with the resource usage limit can be interpreted as resource prices. Our method updates the resource prices in each iteration, ultimately discovering the optimal resource prices, from which an optimal allocation is obtained. We provide an open-source implementation of our method, which can solve problems with millions of jobs in a few seconds on CPU, and under a second on a GPU; our software can solve smaller problems in milliseconds. On large problems, our implementation is up to three orders of magnitude faster than a commercial solver for convex optimization.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Abstracto Disappearum');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/CarbonExplorer.pdf">
+                            <div class="name">Carbon Explorer: A Holistic Approach for Designing Carbon Aware Datacenters</div>
+                            <div class="authors">Bilge Acun, Benjamin Lee, Fiodar Kazhamiaka, Kiwan Maeng, Manoj Chakkaravarthy, Udit Gupta, David Brooks, and Carole-Jean Wu</div>
+                            <div class="venue">arXiv</div>
+                            <div class="abstract">
+                                Technology companies have been leading the way to a renewable energy transformation, by investing in renewable energy sources to reduce the carbon footprint of their datacenters. In addition to helping build new solar and wind farms, companies make power purchase agreements or purchase carbon offsets, rather than relying on renewable energy every hour of the day, every day of the week (24/7). Relying on renewable energy 24/7 is challenging due to the intermittent nature of wind and solar energy. Inherent variations in solar and wind energy production causes excess or lack of supply at different times. To cope with the fluctuations of renewable energy generation, multiple solutions must be applied. These include: capacity sizing with a mix of solar and wind power, energy storage options, and carbon aware workload scheduling. However, depending on the region and datacenter workload characteristics, the carbon-optimal solution varies. Existing work in this space does not give a holistic view of the trade-offs of each solution and often ignore the embodied carbon cost of the solutions. In this work, we provide a framework, Carbon Explorer, to analyze the multi-dimensional solution space by taking into account operational and embodided footprint of the solutions to help make datacenters operate on renewable energy 24/7. The solutions we analyze include capacity sizing with a mix of solar and wind power, battery storage, and carbon aware workload scheduling, which entails shifting the workloads from times when there is lack of renewable supply to times with abundant supply. Carbon Explorer will be open-sourced soon.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Minimize Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/nsdi22-paper-kraft.pdf">
+                            <div class="name">Data-Parallel Actors: A Programming Model for Scalable Query Serving Systems</div>
+                            <div class="authors">Peter Kraft, Fiodar Kazhamiaka, Peter Bailis, and Matei Zaharia</div>
+                            <div class="venue">NSDI (2022)</div>
+                            <div class="abstract">
+                                We present data-parallel actors (DPA), a programming model for building distributed query serving systems. Query serving systems are an important class of applications characterized by low-latency data-parallel queries and frequent bulk data updates; they include data analytics systems like Apache Druid, full-text search engines like ElasticSearch, and time series databases like InfluxDB. They are challenging to build because they run at scale and need complex distributed functionality like data replication, fault tolerance, and update consistency. DPA makes building these systems easier by allowing developers to construct them from purely single-node components while automatically providing these critical properties. In DPA, we view a query serving system as a collection of stateful actors, each encapsulating a partition of data. DPA provides parallel operators that enable consistent, atomic, and fault-tolerant parallel updates and queries over data stored in actors. We have used DPA to build a new query serving system, a simplified data warehouse based on the single-node database MonetDB, and enhance existing ones, such as Druid, Solr, and MongoDB, adding missing user-requested features such as load balancing and elasticity. We show that DPA can distribute a system in < 1K lines of code (> 10× less than typical implementations in current systems) while achieving state-of-the-art performance and adding rich functionality.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Retract Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/POP.pdf">
+                            <div class="name">Solving Large-Scale Granular Resource Allocation Problems Efficiently with POP</div>
+                            <div class="authors">Deepak Narayanan, Fiodar Kazhamiaka, Firas Abuzaid, Peter Kraft, Akshay Agrawal, Srikanth Kandula, Stephen Boyd, and Matei Zaharia</div>
+                            <div class="venue">SOSP (2021)</div>
+                            <div class="abstract">
+                                Resource allocation problems in many computer systems can be formulated as mathematical optimization problems. However, finding exact solutions to these problems using off-the-shelf solvers is often intractable for large problem sizes with tight SLAs, leading system designers to rely on cheap, heuristic algorithms. We observe, however, that many allocation problems are granular: they consist of a large number of clients and resources, each client requests a small fraction of the total number of resources, and clients can interchangeably use different resources. For these problems, we propose an alternative approach that reuses the original optimization problem formulation and leads to better allocations than domain-specific heuristics. Our technique, Partitioned Optimization Problems (POP), randomly splits the problem into smaller problems (with a subset of the clients and resources in the system) and coalesces the resulting sub-allocations into a global allocation for all clients. We provide theoretical and empirical evidence as to why random partitioning works well. In our experiments, POP achieves allocations within 1.5% of the optimal with orders-of-magnitude improvements in runtime compared to existing systems for cluster scheduling, traffic engineering, and load balancing.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Poof Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/Sizing_multiple_roofs-6.pdf">
+                            <div class="name">Sizing Solar Panels and Storage for Multiple Roofs</div>
+                            <div class="authors">Brad Huang, Fiodar Kazhamiaka, and Srinivasan Keshav</div>
+                            <div class="venue">ACM eEnergy (2021)</div>
+                            <div class="abstract">
+                                Choosing the number of solar panels and the amount of storage needed to meet a certain fraction of the load in a microgrid setting is a difficult problem that needs to balance the competing objectives of efficiency, robustness, and cost. Prior work in this area makes the unrealistic assumption that solar panels are to be installed on a single roof that is capable of supporting all the panels required. In reality, we may need to deploy solar panels on several roof segments, each of limited size, and each with its own tilt, orientation and installation cost. This paper presents an algorithm for sizing solar panels and storage in this context. We evaluate the robustness of our approach using traces derived from the Pecan Street Dataport dataset and demonstrate the value of our approach by using it to size a hypothetical installation on the British Antarctic Survey’s research base in Antarctica.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Swallow Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="https://arxiv.org/abs/2104.06513">
+                            <div class="name">Don't Give Up on Large Optimization Problems; POP Them!</div>
+                            <div class="authors">Deepak Narayanan, Fiodar Kazhamiaka, Firas Abuzaid, Peter Kraft, Matei Zaharia</div>
+                            <div class="venue">arXiv (2021)</div>
+                            <div class="abstract">
+                                Resource allocation problems in many computer systems can be formulated as mathematical optimization problems. However, finding exact solutions to these problems using off-the-shelf solvers in an online setting is often intractable for "hyper-scale" system sizes with tight SLAs, leading system designers to rely on cheap, heuristic algorithms. In this work, we explore an alternative approach that reuses the original optimization problem formulation. By splitting the original problem into smaller, more tractable problems for subsets of the system and then coalescing resulting sub-allocations into a global solution, we achieve empirically quasi-optimal (within 1.5%) performance for multiple domains with several orders-of-magnitude improvement in runtime. Deciding how to split a large problem into smaller sub-problems, and how to coalesce split allocations into a unified allocation, needs to be performed carefully in a domain-aware way. We show common principles for splitting problems effectively across a variety of tasks, including cluster scheduling, traffic engineering, and load balancing.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Destroy Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="https://arxiv.org/abs/2104.00282">
+                            <div class="name">Allocation of Fungible Resources via a Fast, Scalable Price Discovery Method</div>
+                            <div class="authors">Akshay Agrawal, Stephen Boyd, Deepak Narayanan, Fiodar Kazhamiaka, Matei Zaharia</div>
+                            <div class="venue">arXiv (2021)</div>
+                            <div class="abstract">
+                                We consider the problem of assigning or allocating resources to a set of jobs. We consider the case when the resources are fungible, that is, the job can be done with any mix of the resources, but with different efficiencies. In our formulation we maximize a total utility subject to a given limit on the resource usage, which is a convex optimization problem and so is tractable. In this paper we develop a custom, parallelizable algorithm for solving the resource allocation problem that scales to large problems, with millions of jobs. Our algorithm is based on the dual problem, in which the dual variables associated with the resource usage limit can be interpreted as resource prices. Our method updates the resource prices in each iteration, ultimately discovering the optimal resource prices, from which an optimal allocation is obtained. We provide an open-source implementation of our method, which can solve problems with millions of jobs in a few seconds on CPU, and under a second on a GPU; our software can solve smaller problems in milliseconds. On large problems, our implementation is up to three orders of magnitude faster than a commerical solver for convex optimization.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Obliderate Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication" id="publication_aqs">
+                       <a href="pubs/avquery-cidr21.pdf">
+                            <div class="name">Challenges and Opportunities for Autonomous Vehicle Query Systems</div>
+                            <div class="authors">Fiodar Kazhamiaka, Matei Zaharia, and Peter Bailis</div>
+                            <div class="venue">CIDR (2021)</div>
+                            <div class="abstract">
+                                Autonomous vehicles (AVs) collect and process rich visual and dimensional data as they operate. Across a fleet of AVs, the collective data forms an up-to-date partial snapshot of the physical world. The ability to query this data has many use-cases, from finding open parking spots and checking the line outside a coffee shop, to monitoring the usage of urban spaces and road conditions. Managing AV data has unique challenges with respect to data volume, bias, and privacy issues. In this paper, we take steps to describe the design and research opportunities for a new class of data management systems: AV query systems.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Banish Abstract to Shadow Realm');">
+                            + View Abstract
+                        </div>
+                    </div>
+    
+                    <div class="publication">
+                        <a href="pubs/gavel-osdi20.pdf">
+                            <div class="name">Heterogeneity-Aware Cluster Scheduling Policies for Deep Learning Workloads</div>
+                            <div class="authors">Deepak Narayanan, Keshav Santhanam, Fiodar Kazhamiaka, Amar Phanishayee, and Matei Zaharia</div>
+                            <div class="venue">OSDI (2020)</div>
+                            <div class="abstract">
+                                Specialized accelerators such as GPUs, TPUs, FPGAs, and custom ASICs have been increasingly deployed to train deep learning models. These accelerators exhibit heterogeneous performance behavior across model architectures. Existing schedulers for clusters of accelerators, which are used to arbitrate these expensive training resources across many users, have shown how to optimize for various multi-job, multi-user objectives, like fairness and makespan. Unfortunately, existing schedulers largely do not consider performance heterogeneity. In this paper, we propose Gavel, a heterogeneity-aware scheduler that systematically generalizes a wide range of existing scheduling policies. Gavel expresses these policies as optimization problems and then systematically transforms these problems into heterogeneity-aware versions using an abstraction we call effective throughput. Gavel then uses a round-based scheduling mechanism to ensure jobs receive their ideal allocation given the target scheduling policy. Gavel’s heterogeneity-aware policies allow a heterogeneous cluster to sustain higher input load, and improve end objectives such as makespan and average job completion time by 1.4× and 3.5× compared to heterogeneity-agnostic policies.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Abstract Away');">
+                            + View Abstract
+                        </div>
+                    </div>
+    
+                    <div class="publication">
+                        <a href="pubs/trainingonadime-dispa20.pdf">
+                            <div class="name">Analysis and Exploitation of Dynamic Pricing in the Public Cloud for ML Training</div>
+                            <div class="authors">Deepak Narayanan, Keshav Santhanam, Fiodar Kazhamiaka, Amar Phanishayee, and Matei Zaharia</div>
+                            <div class="venue">DISPA workshop (2020)</div>
+                            <div class="abstract">
+                                Cloud providers offer instances with similar compute capabilities (for example, instances with different generations of GPUs like K80s, P100s, V100s) across many regions, availability zones, and on-demand and spot markets, with prices governed independently by individual supplies and demands. In this paper, using machine learning model training as an example application, we explore the potential cost reductions possible by leveraging this cross-cloud instance market. We present quantitative results on how the prices of cloud instances change with time, and how total costs can be decreased by considering this dynamic pricing market. Our preliminary experiments show that a) the optimal instance choice for a model is dependent on both the objective (e.g., cost, time, or combination) and the model’s performance characteristics, b) the cost of moving training jobs between instances is cheap, c) jobs do not need to be preempted more frequently than once a day to leverage the benefits from spot instance price variations, and d) the cost of training a model can be decreased by as much as 3.5× compared to a static policy. We also look at contexts where users specify higher-level objectives over collections of jobs, show examples of policies for these contexts, and discuss additional challenges involved in making these cost reductions viable.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Un-Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+    
+                    <div class="publication">
+                        <a href="pubs/robust-sizing-journal.pdf">
+                            <div class="name">Comparison of Different Approaches for Solar PV and Storage Sizing</div>
+                            <div class="authors">Fiodar Kazhamiaka, Yashar Ghiassi-Farrokhfal, Catherine Rosenberg, and Srinivasan Keshav</div>
+                            <div class="venue">IEEE Transactions on Sustainable Computing (2019)</div>
+                            <div class="abstract">
+                                We study the problem of optimally and simultaneously sizing solar photovoltaic (PV) and storage capacity in order to partly or completely offset grid usage. While prior work offers some insights, researchers typically consider only a single sizing approach. In contrast, we use a firm theoretical foundation to compare and contrast sizing approaches based on robust simulation, robust optimization, and stochastic network calculus. We evaluate the robustness and computational complexity of these approaches in a realistic setting to provide practical, robust advice on system sizing.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Clothes Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/TractableLithium-ionStorageMod.pdf">
+                            <div class="name">Tractable Lithium-Ion Storage Models for Optimizing Energy Systems</div>
+                            <div class="authors">Fiodar Kazhamiaka, Catherine Rosenberg, and Srinivasan Keshav</div>
+                            <div class="venue">Energy Informatics (2019)</div>
+                            <div class="abstract">
+                                 Model-based optimization of energy systems with batteries requires a battery model that is accurate, tractable, and easy to calibrate. Developing such a model is challenging because electrochemical batteries exhibit complex behaviours. In this paper, we propose and evaluate a family of battery models that have different trade-offs between accuracy and complexity. We derive our models from a recently developed battery model, which is accurate and easy to calibrate but is not tractable. We evaluate our models against the commonly-used benchmark tractable model using a set of experiments that characterize the cycling behaviour of two Lithium-ion battery chemistries, as well as dynamic charge/discharge experiments. We further compare the models for two typical energy system applications, solar farm firming and grid regulation, to show the impact of the choice of battery model on the results. Finally, we evaluate the increase in accuracy when battery models are calibrated with the proper operating range.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Detonate Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/synthetic_trace_generation.pdf">
+                            <div class="name">Synthetic Trace Generation for Robust PV-Storage System Sizing</div>
+                            <div class="authors">Sun Sun, Fiodar Kazhamiaka, Srinivasan Keshav, and Catherine Rosenberg</div>
+                            <div class="venue">ACM eEnergy (2019)</div>
+                            <div class="abstract">
+                                Due to the inherent randomness of both solar power generation and residential electrical load, jointly sizing solar panel and storage capacity to meet a given quality-of-service (QoS) constraint is challenging. The challenge is greater when there is limited representative historical data. We therefore propose generating synthetic solar and load traces, corresponding to different realizations of the underlying stochastic processes. Specifically, we compare the effectiveness of three generative models: autoregressive moving-average (ARMA) models, Gaussian mixture models (GMMs), and generative adversar- ial networks (GANs) – as well as two direct sampling methods – for synthetic trace generation. These traces are then used for robust joint sizing by a technique described in recent work. Extensive experiments based on real data show that our approach finds robust sizing with only one year’s worth of hourly trace data. Moreover, assuming that solar data are available, given a database of load traces, we demonstrate how to perform robust sizing with access to only twelve data points of load, one for each month of one year.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Extirpate Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/Adaptive_Battery_Control-10.pdf">
+                            <div class="name">Adaptive Battery Control with Neural Networks</div>
+                            <div class="authors">Fiodar Kazhamiaka, Srinivasan Keshav, and Catherine Rosenberg</div>
+                            <div class="venue">Applied Machine Learning in Energy Systems (AMLIES), an ACM eEnergy workshop (2019)</div>
+                            <div class="abstract">
+                                The return on investment of a battery system is maximized if the battery control strategy is appropriately matched to the operating environment (e.g., pricing scheme, electrical load). For residential battery systems, the current practice is to statically determine the control policy prior to system installation; the battery subsequently spends upwards of 10 years operating in a dynamic environment. A state-of-the-art model predictive controller (MPC) can adapt to changes in the system, but is limited by its high online computational requirements. To better extract value at a reasonable on-line computational cost, we propose an adaptive battery controller framework that learns a control strategy by encoding an MPC policy in a neural network, as data becomes available, to adapt the control to the operating environment. We evaluate our controller in the context of a solar PV-storage system deployed in Texas under a time-of-use pricing scheme. We find that our controller gets to within 5-10% of optimal performance, and outperforms a default control strategy for PV-storage systems within a few months of installation.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/robust-practical-approaches-8.pdf">
+                            <div class="name">Robust and Practical Approaches for Solar PV and Storage Sizing</div>
+                            <div class="authors">Fiodar Kazhamiaka, Yashar Ghiassi-Farrokhfal, Srinivasan Keshav, and Catherine Rosenberg</div>
+                            <div class="venue">ACM e-Energy (2018) <b>(Runner up: Best paper by audience vote)</b> </div>
+                            <div class="abstract">
+                                We study the problem of optimally and simultaneously sizing solar photovoltaic (PV) and storage capacity in order to partly or completely offset grid usage. While prior work offers some insights, researchers typically consider only a single sizing approach. In contrast, we use a firm theoretical foundation to compare and contrast sizing approaches based on robust simulation, robust optimization, and stochastic network calculus. We evaluate the robustness and computational complexity of these approaches in a realistic setting to provide practical, robust advice on system sizing.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Stone Cold Steve Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/simple-spec-based-13.pdf">
+                            <div class="name">Simple Spec-Based Modelling of Lithium-Ion Batteries</div>
+                            <div class="authors">Fiodar Kazhamiaka, Srinivasan Keshav, Catherine Rosenberg, and Karl-Heinz Pettinger</div>
+                            <div class="venue">IEEE Transactions on Energy Conversion (2018)</div>
+                            <div class="abstract">
+                                Lithium-ion battery models that estimate their energy content after a series of charge and discharge operations are essential in the optimal design, analysis and operation of battery-based systems. We focus on the class of battery models that can be calibrated entirely from the battery’s manufacturer-provided specifications (spec). Such models are simple to calibrate and are therefore widely used in practice. The best-known model in this category was proposed by Tremblay et al. in 2007. This model, however, has several shortcomings, including low fidelity at high C-rates, and the fact that it does not model the battery management system. We propose an alternative, called the Power-based Integrated (PI) model that is also completely spec-based, yet has much higher fidelity. We perform two types of validation, the first one uses the voltage profiles in the spec while the other is based on laboratory experiments. Both validations confirm that our model, which we have publicly released as a Simulink system block, has a mean absolute voltage error of less than 0.1 V across a wide range of C-rates.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Zap Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubss/influence-jurisdiction-profitability-5.pdf">
+                            <div class="name">On the Influence of Jurisdiction on the Profitability of Photovoltaic-Storage systems: A Multi-National Case Study</div>
+                            <div class="authors">Fiodar Kazhamiaka, Patrick Jochem, Catherine Rosenberg, and Srinivasan Keshav</div>
+                            <div class="venue">Energy Policy, (2017)</div>
+                            <div class="abstract">
+                                Policy makers in many jurisdictions have implemented incentive schemes such as ‘feed-in tariffs’ (FIT) and upfront purchase subsidies to encourage consumers to self-generate parts of their power requirements by solar energy. We quantitatively study the impact of jurisdiction-specific solar radiation profile, the typical residential loads, the cost of system components, the price of grid electricity, and incentive programs on photovoltaic (PV) and storage system profitability in Germany, Ontario, and Austin, Texas. In each jurisdiction, for a range of PV and storage system sizes, we compute the optimal use of the system, and hence the best possible profitability of that system in that jurisdiction over a 20 year life span. This methodology allows us to quantitatively estimate the influence of a jurisdiction on the (best possible) profitability of PV-storage systems. We find that the choice of jurisdiction has significant impact on the profitability of PV-storage systems. We also find that policy makers can use the price of grid electricity as well as upfront subsidies to influence profitability, and therefore adoption.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Send Abstract to the Mirror Dimension');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/li-ion-storage-13.pdf">
+                            <div class="name">Li-Ion Storage Models for Energy System Optimization: The Accuracy-Tractability Tradeoff</div>
+                            <div class="authors">Fiodar Kazhamiaka, Catherine Rosenberg, Srinivasan Keshav, and Karl-Heinz Pettinger</div>
+                            <div class="venue">ACM e-Energy (2016)</div>
+                            <div class="abstract">
+                                There is a need for accurate analytical models that describe how a Lithium-ion battery’s state of charge evolves as a result of a charging or discharging operation and that can be used in optimization problems. Although ‘white box’ models that take into account the details of electro-chemical processes can be highly accurate, they are not typically suitable for optimization problems. We propose two models that represent different trade-offs between accuracy and tractability. We validate the accuracy of these models with data traces obtained from extensive experiments using two different commercially-available cells based on two distinct Li-Ion technologies. We find that one of our models can be easily adopted for use in a mathematical optimization problem, while significantly increasing the range of C-rates over which it is accurate (<5% error) compared to the models that are currently being used.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Go Away Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/practical-strategies-storage-20.pdf">
+                            <div class="name">Practical Strategies for Storage Operation in Energy Systems: Design and Evaluation</div>
+                            <div class="authors">Fiodar Kazhamiaka, Catherine Rosenberg, and Srinivasan Keshav</div>
+                            <div class="venue">IEEE Transactions on Sustainable Energy (2016)</div>
+                            <div class="abstract">
+                                Motivated by the increase in small-scale solar installations used for powering homes and small businesses, we consider the design of rule-based strategies for operating an energy storage device connected to a self-use solar generation system to minimize payments to the grid. This problem is inherently challenging, since strategies depend greatly on the choice of the tariff structure and forecasts of future generation and load. We propose an optimization framework for finding optimal operation strategies and use it to evaluate the performance of an existing operating strategy that we modified to not use forecasts, in the context of differential pricing. We also use our framework to propose a new practical operating strategy for peak-demand pricing. We simulate the two rule-based strategies using real data for solar generation and building load, and find that they are able to achieve near-optimal performance without requiring forecasts.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Decompose Abstract into an indefinite extent of 6-packs');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/mayflower.pdf">
+                            <div class="name">Mayflower: Improving Distributed Filesystem Performance Through SDN/Filesystem Co-Design</div>
+                            <div class="authors">Sajjad Rizvi, Xi Li, Bernard Wong, Fiodar Kazhamiaka, and Benjamin Cassell</div>
+                            <div class="venue">IEEE International Conference on Distributed Computing Systems (2016)</div>
+                            <div class="abstract">
+                                In this paper, we introduce Mayflower, a new distributed filesystem that is co-designed from the ground up to work together with a network control plane. In addition to the standard distributed filesystem components, Mayflower includes a flow monitor and manager running alongside a software-defined networking controller. This tight coupling with the network controller enables Mayflower to make intelligent replica selection and flow scheduling decisions based on both filesystem and network information. Mayflower can perform global optimizations that are unavailable to conventional network-aware distributed filesystems and network control planes. Our evaluation results from both simulations and a prototype implementation show that Mayflower reduces average read completion time by more than 25% compared to current state-of-the-art distributed filesystems with an independent network flow scheduler, and more than 75% compared to HDFS with ECMP.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Pollock');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/power_planning.pdf">
+                            <div class="name">Energy Supply Aware Power Planning for Flexible Loads</div>
+                            <div class="authors">Florian Niedermeier, Fiodar Kazhamiaka, and Hermann de Meer</div>
+                            <div class="venue">Energy Efficient Data Centers, an ACM eEnergy workshop (2016)</div>
+                            <div class="abstract">
+                                Increasing the use of renewable energy is considered a viable way of reducing carbon intensive power generation. However, a power grid running on high amounts of renewable energy has to deal with the limited controllability and higher volatility of power sources like wind or solar. In this work, we propose to use demand side management to deal with varying amounts of renewable power feed-in via the use of power plans, i.e. instructions passed to large energy consumers that specify how they should try to spread out their energy use over a day. We argue that a separation of power planning and implementation of technical measures to schedule loads to follow the plan would alleviate some of the problems faced by an integrated planning-scheduling approach, as these processes are governed by different entities who may be unwilling to disclose all required information to each other. As a proof-of-concept, we propose and analyze a quadratic programming approach to maximizing the fraction of renewable energy being used while not overburdening the consumer with a power plan that is difficult to follow.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Limit Abstract to 2 degrees');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                    <div class="publication">
+                        <a href="pubs/Optimal_Design.pdf">
+                            <div class="name">Optimal Design of Renewable Farms with Storage</div>
+                            <div class="authors">Yashar Ghiassi-Farrokhfal, Fiodar  Kazhamiaka, Catherine Rosenberg, and Srinivasan Keshav</div>
+                            <div class="venue">IEEE Transactions on Sustainable Energy (2015)</div>
+                            <div class="abstract">
+                                We consider the problem of allocating a capital budget to solar panels and storage to maximize the expected revenue in the context of a large-scale solar farm participating in an energy market. This problem is complex due to many factors. To begin with, solar energy production is stochastic, with a high peak-to-average ratio, thus the access link is typically provisioned at less than peak capacity, leading to the potential waste of energy due to curtailment. The use of storage prevents power curtailment, but the allocation of capital to storage reduces the amount of energy produced. Moreover, energy storage devices are imperfect. A solar farm owner is thus faced with two problems: 1)deciding the level of power commitment and 2) the operation of storage to meet this commitment. We formulate two problems corresponding to two different power commitment approaches, an optimal one and a practical one, and show that the two problems are convex, allowing efficient solutions. Numerical examples show that our practical power commitment approach is close to optimal and also provide several other engineering insights.
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Hide Abstract (out of ideas)');">
+                            + View Abstract
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Template 
+                    <div class="publication">
+                        <a href="ADD LINK TO DOCUMENT HERE">
+                            <div class="name">ADD_PUBLICATION_NAME_HERE</div>
+                            <div class="authors">ADD AUTHOR NAMES HERE</div>
+                            <div class="venue">ADD JOURNAL / PUBLISHER NAME HERE</div>
+                            <div class="abstract">
+                                ADD ABSTRACT HERE
+                            </div>
+                        </a>
+                        <div class="abstractButton" onclick="expandAbstract(this, '- Hide Abstract');">
+                            + View Abstract
+                        </div>
+                    </div>
+                -->
+            </div>
+        </div>
+
+        <div style="color: #FDFDFD;">Hey, you found me! Hope the rest of your day is this lucky!</div>
+    </body>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-128051598-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-128051598-1');
+    </script>
+
+    <script>
+        function expandAbstract(button, hideMessage) {
+            let publication = button.parentNode;
+            if (publication.classList.contains('expanded')) {
+                publication.classList.remove('expanded');
+                button.innerHTML = "+ View Abstract";
+            } else {
+                publication.classList.add('expanded');
+                button.innerHTML = hideMessage;
+            }
+        }
+    </script>
+</html>
+
+<!-- Made with <3 by Me :) -->
